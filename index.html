@@ -15,48 +15,157 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css"
         crossorigin="anonymous" />
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Styles -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/style.css" />
-
 </head>
 
 <body>
-
     <main class="main">
-
         <div class="sections-start">
             <!-- HERO SECTION -->
-            <section class="hero">
+            <section class="hero xre-hero">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="hero__inner text-center">
                                 <h1>AscendixRE CRM</h1>
-                                <h2 class="hero__title title">AscendixRE CRM for Commercial Real Estate</h2>
-                                <p class="hero__text text">The best CRM for commercial real estate brokers on top of Salesforce® Created by commercial real estate professionals for commercial real estate professionals. Prospect, Automate, Track, Report, and Personalize the Customer Experience with ease in AscendixRE CRM.
+                                <h2 class="hero__title title">
+                                    AscendixRE CRM for Commercial Real Estate
+                                </h2>
+                                <p class="hero__text text">
+                                    The best CRM for commercial real estate brokers on top of
+                                    Salesforce® Created by commercial real estate professionals
+                                    for commercial real estate professionals. Prospect,
+                                    Automate, Track, Report, and Personalize the Customer
+                                    Experience with ease in AscendixRE CRM.
                                 </p>
                                 <div class="row">
                                     <a href="#form" class="btn primary hero__link">Request Demo</a>
                                 </div>
-                                <div class="row">
-                                    
-                                </div>
+
                             </div>
+
+                            <div class="row">
+
+                                <a class="hero__video-link" href="https://www.youtube.com/watch?v=PL6MDXRjqAY"
+                                    data-fancybox>
+                                    <div class="hero__video" style="background-image: url(img/Hero/video.png)">
+                                        <svg class="hero__svg" viewBox="0 0 100 100">
+                                            <g>
+                                                <circle cx="50" cy="50" r="50" />
+                                            </g>
+                                            <g style="mix-blend-mode: multiply">
+                                                <path
+                                                    d="M67 46.5359C69.6667 48.0755 69.6667 51.9245 67 53.4641L44.5 66.4545C41.8333 67.9941 38.5 66.0696 38.5 62.9904L38.5 37.0096C38.5 33.9304 41.8333 32.0059 44.5 33.5455L67 46.5359Z" />
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </a>
+
+
+                            </div>
+                            <div class="row">
+
+                                <div class="col">
+                                    <ul class="hero__list">
+                                        <li class="hero__item">
+                                            <img src="img/Hero/colliers.png" alt="logo" class="hero__logo" />
+                                        </li>
+                                        <li class="hero__item">
+                                            <img src="img/Hero/cresa.png" alt="logo" class="hero__logo" />
+                                        </li>
+                                        <li class="hero__item">
+                                            <img src="img/Hero/cushman.png" alt="logo" class="hero__logo" />
+                                        </li>
+                                        <li class="hero__item">
+                                            <img src="img/Hero/jll.png" alt="logo" class="hero__logo" />
+                                        </li>
+                                        <li class="hero__item">
+                                            <img src="img/Hero/lee.png" alt="logo" class="hero__logo" />
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- xre-features SECTION -->
+            <section class="clients xre-start">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="clients__inner text-center">
+                                <h2 class="clients__title title">AscendixRE Features You'll Love</h2>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <ul class="xre-features__list">
+                                <li class="xre-features__item">
+                                    <img class="xre-features__img" src="img/Features icons/Deal Pipeline icon.png"
+                                        alt="icon">
+                                    <span class="xre-features__span">Deal Pipeline & Analytics</span>
+                                </li>
+
+                                <li class="xre-features__item">
+                                    <img class="xre-features__img" src="img/Features icons/Comission Tracking icon.png"
+                                        alt="icon">
+                                    <span class="xre-features__span">Commission Tracking</span>
+                                </li>
+
+                                <li class="xre-features__item">
+                                    <img class="xre-features__img" src="img/Features icons/Mass Emailing.png"
+                                        alt="icon">
+                                    <span class="xre-features__span">Mass Emailing</span>
+                                </li>
+
+                                <li class="xre-features__item">
+                                    <img class="xre-features__img"
+                                        src="img/Features icons/CRE Brochure Builder icon.png" alt="icon">
+                                    <span class="xre-features__span">CRE Brochure Builder</span>
+                                </li>
+
+                                <li class="xre-features__item">
+                                    <img class="xre-features__img" src="img/Features icons/stacking.png" alt="icon">
+                                    <span class="xre-features__span">Stacking Plan Module</span>
+                                </li>
+
+                                <li class="xre-features__item">
+                                    <img class="xre-features__img" src="img/Features icons/Listing Management icon.png"
+                                        alt="icon">
+                                    <span class="xre-features__span">Listing Management</span>
+                                </li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
             </section>
 
- 
 
             <!-- STEPS SECTION -->
-            <section class="steps">
+            <section class="steps choice">
                 <div class="container steps__container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="text-center">
-                                <h2 class="steps__title title">Build and Generate in 3 Easy Steps</h2>
+                                <h2 class="steps__title title">
+                                    What You Get Choosing AscendixRE
+                                </h2>
                             </div>
                         </div>
                     </div>
@@ -64,1763 +173,144 @@
                     <!-- First card -->
                     <div class="row align-items-center steps__inner">
                         <div class="col-md-6 steps__box-img">
-                            <img src="img/step-section/first-step.png" loading="lazy" alt="CO screen-1"
-                                class="steps__img grey-shadow">
+                            <img src="img/Choice/01.png" loading="lazy" alt="CO screen-1"
+                                class="steps__img grey-shadow" />
                         </div>
                         <div class="col-md-6">
-                            <span class="steps__span">Step 1</span>
-                            <h3 class="steps__subtitle subtitle">Select from a library or build your custom template
+                            <h3 class="steps__subtitle subtitle">
+                                Secure & Cloud-Based CRM
                             </h3>
-                            <p class="steps__text text">Having a predefined template that looks like it came out of a
-                                professional design firm saves much time and creative brainwork. Just select what you
-                                want
-                                to build: PDF, email or landing page template.</p>
+                            <p class="steps__text text">
+                                A cloud-based commercial real estate CRM system you can access anywhere and from any
+                                device. AscendixRE is built on top of Salesforce, converting it into easy-to-use and
+                                comprehensive customer relationship management software for both commercial real estate
+                                companies and brokers.
+                            </p>
                         </div>
                     </div>
 
                     <!-- Second card -->
                     <div class="row align-items-center steps__inner steps__middle-card">
                         <div class="col-md-6">
-                            <span class="steps__span">Step 2</span>
-                            <h3 class="steps__subtitle subtitle">Pull your records from AscendixRE CRM</h3>
-                            <p class="steps__text text">Say no to manual copying and pasting. Data binding algorithms in
-                                your report generation tool will automatically pre-populate your template with the
-                                needed
-                                data right from your CRM.</p>
+                            <h3 class="steps__subtitle subtitle">
+                                Smart Prospecting Tools
+                            </h3>
+                            <p class="steps__text text">
+                                Use AscendixRE as a full-cycled customer relationship management software with powerful
+                                contact and lead management and tools. Start using prospecting tools to mine targeted
+                                lists of contacts to make calls and send emails to. Get automatic reminders on lease
+                                expirations or when it is time to get in touch with your contacts. Easily monitor and
+                                plan your sales activities.
+                            </p>
                         </div>
                         <div class="col-md-6 steps__box-img">
-                            <img src="img/step-section/second-step.png" loading="lazy" alt="CO screen-2"
-                                class="steps__img grey-shadow">
+                            <img src="img/Choice/02.png" loading="lazy" alt="CO screen-2"
+                                class="steps__img grey-shadow" />
                         </div>
                     </div>
 
                     <!-- Third card -->
                     <div class="row align-items-center steps__inner">
                         <div class="col-md-6 steps__box-img">
-                            <img src="img/step-section/third-step.png" loading="lazy" alt="CO screen-3"
-                                class="steps__img">
+                            <img src="img/Choice/03.png" loading="lazy" alt="CO screen-3" class="steps__img" />
                         </div>
                         <div class="col-md-6">
-                            <span class="steps__span">Step 3</span>
-                            <h3 class="steps__subtitle subtitle">Get a result in a few clicks</h3>
-                            <p class="steps__text text">Generate you brochure PDFs, compose emails, and post landing
-                                pages
-                                without manual work.</p>
+
+                            <h3 class="steps__subtitle subtitle">
+                                Enhanced Email Marketing – Powered by Mailchimp
+                            </h3>
+                            <p class="steps__text text">
+                                Our commercial real estate CRM enhances the integration with MailChimp for targeted
+                                email marketing campaigns, using Ascendix Search. Simply select recipients, commercial
+                                properties, and a template, and MailChimp will take care of delivering the emails with
+                                much larger audience limits all while staying within the AscendixRE application.
+                            </p>
                         </div>
                     </div>
+
+                    <!-- Fourth card -->
+                    <div class="row align-items-center steps__inner steps__middle-card">
+                        <div class="col-md-6">
+                            <h3 class="steps__subtitle subtitle">
+                                Track All Data You Need
+                            </h3>
+                            <p class="steps__text text">
+                                In addition to traditional commercial real estate CRM functionality, AscendixRE has
+                                extended commercial real estate database features that let you track properties,
+                                listings, sales, leases, land, capital sources, and availabilities in one place. You can
+                                also add custom objects to track all essential information in one place.
+                            </p>
+                        </div>
+                        <div class="col-md-6 steps__box-img">
+                            <img src="img/Choice/04.png" loading="lazy" alt="CO screen-2"
+                                class="steps__img grey-shadow" />
+                        </div>
+                    </div>
+
+                    <!-- Fifth card -->
+                    <div class="row align-items-center steps__inner">
+                        <div class="col-md-6 steps__box-img">
+                            <img src="img/Choice/05.png" loading="lazy" alt="CO screen-3" class="steps__img" />
+                        </div>
+                        <div class="col-md-6">
+
+                            <h3 class="steps__subtitle subtitle">
+                                Automated Workflows
+                            </h3>
+                            <p class="steps__text text">
+                                A cloud-based commercial real estate CRM system you can access anywhere and from any
+                                device. AscendixRE is built on top of Salesforce, converting it into easy-to-use and
+                                comprehensive customer relationship management software for both commercial real estate
+                                companies and brokers.
+                            </p>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </section>
         </div>
 
-        <!-- LIBRARY SECTION -->
-        <section class="library">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="library__inner text-center">
-                            <h2 class="library__title title">Real Estate Templates Library</h2>
-                            <p class="library__text text">23+ customizable templates</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- First row, visible for mobile -->
-
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-
-                        <!-- First Card -->
-                        <article class="library__card">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalOne">
-                                <div class="library__inner">
-                                    <img src="img/library-section/first.jpg" loading="lazy"
-                                        alt="Ascendix Composer Online Property Flyer 1" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property Flyer 1</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                                <img class="library__icon-pdf" src="img/icons/pdfT-icon.svg" alt="icons">
-
-                                            </span>
-                                            <span class="library__name">PDF</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </button>
-                        </article>
-
-                        <!-- First Modal (PRINTABLE) -->
-                        <div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="firstTemplate"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <span class="modal-title" id="firstTemplate">Preview Template
-                                            &quot;Property Flyer 1&quot;</span>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- <div class="pop-out">
-                                            <div class="pop-out__img"></div>
-                                        </div> -->
-                                        <!-- <iframe class="library__iframe"
-                                            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://staging.ascendix.com/wp-content/themes/ascendix/assets/images/product/pdf/first.pdf"
-                                            width="100%" frameborder="0" seamless>
-                                        </iframe> -->
-
-                                        <iframe src="https://ascendix.com/wp-content/uploads/2023/08/Offering-Memorandum-For-Sale.pdf" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="User Guide for Printable Template.pdf"></iframe>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- First Modal End -->
-
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-
-                        <!-- Second Card -->
-                        <article class="library__card">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalTwo">
-                                <div class="library__inner">
-                                    <img src="img/library-section/second.jpg" loading="lazy"
-                                        alt="Ascendix Composer Online Property Flyer 2" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property Flyer 2</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                <img class="library__icon-micr" src="img/icons/microT-icon.svg" alt="icons">
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                            </span>
-                                            <span class="library__name">Microsite/HTML</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </button>
-                        </article>
-
-                        <!-- Second Modal (PRINTABLE) -->
-                        <div class="modal fade" id="modalTwo" tabindex="-1" aria-labelledby="secondTemplate"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <span class="modal-title" id="secondTemplate">Preview Template &quot;Property
-                                            Flyer
-                                            2&quot;</span>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- <div class="pop-out">
-                                            <div class="pop-out__img"></div>
-                                        </div>
-
-                                        <iframe class="library__iframe"
-                                            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://staging.ascendix.com/wp-content/themes/ascendix/assets/images/product/pdf/second.pdf#toolbar=0&statusbar=0"
-                                            width="100%" frameborder="0" seamless></iframe> -->
-
-                                       <iframe src="https://ascendix.sharepoint.com/sites/Composer/_layouts/15/embed.aspx?UniqueId=12c137bd-a8d0-4111-bc67-09624a25c625" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="Lease Offering Memorandum 1_9_6_23 (1).pdf"></iframe>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Second Modal End -->
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- Third Card -->
-                        <article class="library__card">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalThird">
-                                <div class="library__inner">
-                                    <img src="img/library-section/third.jpg" loading="lazy"
-                                        alt="Ascendix Composer Online Property Flyer 3" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property Flyer 3</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                 <img class="library__icon-email" src="img/icons/emailT-icon.svg" alt="icons">
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                            </span>
-                                            <span class="library__name">Email</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </button>
-                        </article>
-
-                        <!-- Third Modal (PRINTABLE) -->
-                        <div class="modal fade" id="modalThird" tabindex="-1" aria-labelledby="thirdTemplate"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <span class="modal-title" id="thirdTemplate">Preview Template &quot;Property
-                                            Flyer
-                                            3&quot;</span>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- <div class="pop-out">
-                                            <div class="pop-out__img"></div>
-                                        </div> -->
-
-
-                                        <!-- <iframe class="library__iframe"
-                                            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://staging.ascendix.com/wp-content/themes/ascendix/assets/images/product/pdf/third.pdf#toolbar=0&statusbar=0"
-                                            width="100%" frameborder="0" seamless>
-                                        </iframe> -->
-
-                                        <iframe src="https://ascendix.sharepoint.com/sites/Composer/_layouts/15/embed.aspx?UniqueId=a8abe6bd-4a15-419f-a264-beb404ae49b3" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="Legacy Data Snapshot Sample(done).pdf"></iframe>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Third Modal End -->
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- Fourth Card -->
-                        <article class="library__card">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalFourth">
-                                <div class="library__inner">
-                                    <img src="img/library-section/fourth.jpg" loading="lazy"
-                                        alt="Ascendix Composer Online Property Microsite" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property Microsite</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                <!-- <svg class="icon icon--code">
-                                                    <use xlink:href="#code">
-                                                    </use>
-                                                </svg> -->
-                                                <img class="library__icon-micr" src="img/icons/microT-icon.svg" alt="icons">
-                                            </span>
-                                            <span class="library__name">Microsite/HTML</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </button>
-                        </article>
-
-                        <!-- Fourth Modal (MICROSITE) -->
-                        <div class="modal fade img-screen" id="modalFourth" tabindex="-1"
-                            aria-labelledby="fourthTemplate" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <span class="modal-title" id="fourthTemplate">Preview Template &quot;Property
-                                            Microsite&quot;</span>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- <div class="pop-out">
-                                            <div class="pop-out__img"></div>
-                                        </div>
-
-                                        <iframe class="library__iframe"
-                                            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://staging.ascendix.com/wp-content/themes/ascendix/assets/images/product/pdf/fourth.pdf#toolbar=0&statusbar=0"
-                                            width="100%" frameborder="0" seamless>
-                                        </iframe> -->
-
-                                        <iframe src="https://ascendix.sharepoint.com/sites/Composer/_layouts/15/embed.aspx?UniqueId=99a92dd5-7d3b-4679-a687-9fce050cd14c" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="Property Listing Report  (OK 3)_10_21_21 (11).pdf"></iframe>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fourth Modal End -->
-                    </div>
-
-                </div>
-
-                <!-- Second row -->
-
-                <div class="row library-hide-row" id="hide-cards-first-row">
-                    <div class="col-lg-3 col-sm-6">
-
-                        <!-- Fifth Card -->
-                        <article class="library__card">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalFive">
-                                <div class="library__inner">
-                                    <img src="img/library-section/fifth.jpg" loading="lazy"
-                                        alt="Ascendix Composer Online Property Flyer 4" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property Flyer 4</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                  <img class="library__icon-pdf" src="img/icons/pdfT-icon.svg" alt="icons">
-
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                            </span>
-                                            <span class="library__name">PDF</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </button>
-                        </article>
-
-                        <!-- Fifth Modal (PRINTABLE) -->
-                        <div class="modal fade img-scroll" id="modalFive" tabindex="-1" aria-labelledby="fifthTemplate"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <span class="modal-title" id="fifthTemplate">Preview Template &quot;Property
-                                            Flyer
-                                            4&quot;</span>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- <div class="pop-out">
-                                            <div class="pop-out__img"></div>
-                                        </div>
-
-                                        <iframe class="library__iframe"
-                                            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://staging.ascendix.com/wp-content/themes/ascendix/assets/images/product/pdf/fifth.pdf#toolbar=0&statusbar=0"
-                                            width="100%" frameborder="0" seamless>
-                                        </iframe> -->
-
-                                        <iframe src="https://ascendix.sharepoint.com/sites/Composer/_layouts/15/embed.aspx?UniqueId=16d6dc87-51cc-446b-9505-ea6e4fef10e1" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="Sale Listing Activity Report_10_21_21.pdf"></iframe>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Fifth Modal End -->
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- Sixth Card -->
-                        <article class="library__card">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalSix">
-                                <div class="library__inner">
-                                    <img src="img/library-section/sixth.jpg" loading="lazy"
-                                        alt="Ascendix Composer Online Property Flyer 5" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property Flyer 5</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                                  <img class="library__icon-pdf" src="img/icons/pdfT-icon.svg" alt="icons">
-                                            </span>
-                                            <span class="library__name">PDF</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </button>
-                        </article>
-
-                        <!-- Sixth Modal (PRINTABLE) -->
-                        <div class="modal fade img-scroll" id="modalSix" tabindex="-1" aria-labelledby="sixthTemplate"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <span class="modal-title" id="sixthTemplate">Preview Template &quot;Property
-                                            Flyer
-                                            5&quot;</span>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- <div class="pop-out">
-                                            <div class="pop-out__img"></div>
-                                        </div>
-
-                                        <iframe class="library__iframe"
-                                            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://staging.ascendix.com/wp-content/themes/ascendix/assets/images/product/pdf/sixth.pdf#toolbar=0&statusbar=0"
-                                            width="100%" frameborder="0" seamless>
-                                        </iframe> -->
-
-                                        <iframe src="https://ascendix.sharepoint.com/sites/Composer/_layouts/15/embed.aspx?UniqueId=99a92dd5-7d3b-4679-a687-9fce050cd14c" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="Property Listing Report  (OK 3)_10_21_21 (11).pdf"></iframe>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Sixth Modal End -->
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- Seventh Card -->
-                        <article class="library__card">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalSeven">
-                                <div class="library__inner">
-                                    <img src="img/library-section/seventh.jpg" loading="lazy"
-                                        alt="Ascendix Composer Online Property Flyer 6" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property Flyer 6</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                  <img class="library__icon-pdf" src="img/icons/pdfT-icon.svg" alt="icons">
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                            </span>
-                                            <span class="library__name">PDF</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </button>
-                        </article>
-
-                        <!-- Seventh Modal (PRINTABLE) -->
-                        <div class="modal fade img-scroll" id="modalSeven" tabindex="-1"
-                            aria-labelledby="seventhTemplate" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <span class="modal-title" id="seventhTemplate">Preview Template &quot;Property
-                                            Flyer
-                                            6&quot;</span>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- <div class="pop-out">
-                                            <div class="pop-out__img"></div>
-                                        </div>
-
-                                        <iframe class="library__iframe"
-                                            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://staging.ascendix.com/wp-content/themes/ascendix/assets/images/product/pdf/seventh.pdf#toolbar=0&statusbar=0"
-                                            width="100%" frameborder="0" seamless>
-                                        </iframe> -->
-
-                                         <iframe src="https://ascendix.sharepoint.com/sites/Composer/_layouts/15/embed.aspx?UniqueId=99a92dd5-7d3b-4679-a687-9fce050cd14c" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="Property Listing Report  (OK 3)_10_21_21 (11).pdf"></iframe>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Seventh Modal End -->
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- Eigth Card -->
-                        <article class="library__card">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalEigth">
-                                <div class="library__inner">
-                                    <img src="img/library-section/eigth.jpg" loading="lazy"
-                                        alt="Ascendix Composer Online Property Flyer 7" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property Flyer 7</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                                  <img class="library__icon-pdf" src="img/icons/pdfT-icon.svg" alt="icons">
-                                            </span>
-                                            <span class="library__name">PDF</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </button>
-                        </article>
-
-                        <!-- Eigth Modal (PRINTABLE) -->
-                        <div class="modal fade img-scroll" id="modalEigth" tabindex="-1" aria-labelledby="eigthTemplate"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <span class="modal-title" id="eigthTemplate">Preview Template &quot;Property
-                                            Flyer 7&quot;</span>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <!-- <div class="pop-out">
-                                            <div class="pop-out__img"></div>
-                                        </div>
-
-                                        <iframe class="library__iframe"
-                                            src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://staging.ascendix.com/wp-content/themes/ascendix/assets/images/product/pdf/eigth.pdf#toolbar=0&statusbar=0"
-                                            width="100%" frameborder="0" seamless>
-                                        </iframe> -->
-
-                                         <iframe src="https://ascendix.sharepoint.com/sites/Composer/_layouts/15/embed.aspx?UniqueId=99a92dd5-7d3b-4679-a687-9fce050cd14c" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen title="Property Listing Report  (OK 3)_10_21_21 (11).pdf"></iframe>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Eigth Modal End -->
-                    </div>
-
-                </div>
-
-
-                <!-- Third row -->
-                <div class="row library-hide-row" id="hide-cards-second-row">
-                    <!-- SOON Cards -->
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- Nineth Card -->
-                        <article class="library__card library__card--soon">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalNine">
-                                <div class="library__inner">
-                                    <img src="img/library-section/nineth.jpg" loading="lazy" alt="Offering memorandum"
-                                        class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Offering memorandum</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                                  <img class="library__icon-pdf" src="img/icons/pdfT-icon.svg" alt="icons">
-                                            </span>
-                                            <span class="library__name">PDF</span>
-                                        </div>
-                                    </div>
-                                    <span class="library__span">Coming Soon</span>
-                                </div>
-                            </button>
-                        </article>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- Tenth Card -->
-                        <article class="library__card library__card--soon">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalTen">
-                                <div class="library__inner">
-                                    <img src="img/library-section/tenth.jpg" loading="lazy"
-                                        alt="Land property activity report" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Land property activity report</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                                  <img class="library__icon-pdf" src="img/icons/pdfT-icon.svg" alt="icons">
-                                            </span>
-                                            <span class="library__name">PDF</span>
-                                        </div>
-                                    </div>
-                                    <span class="library__span">Coming Soon</span>
-                                </div>
-                            </button>
-                        </article>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- Eleven Card -->
-                        <article class="library__card library__card--soon">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalEleven">
-                                <div class="library__inner">
-                                    <img src="img/library-section/eleventh.jpg" loading="lazy"
-                                        alt="Property listing report" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property listing report</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                                  <img class="library__icon-pdf" src="img/icons/pdfT-icon.svg" alt="icons">
-                                            </span>
-                                            <span class="library__name">PDF</span>
-                                        </div>
-                                    </div>
-                                    <span class="library__span">Coming Soon</span>
-                                </div>
-                            </button>
-                        </article>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- Twelveth Card -->
-                        <article class="library__card library__card--soon">
-                            <button type="button" class="library__btn" data-toggle="modal" data-target="#modalTwelve">
-                                <div class="library__inner">
-                                    <img src="img/library-section/twelveth.jpg" loading="lazy"
-                                        alt="Property summary report" class="library__img">
-                                    <div class="library__content">
-                                        <h3 class="library__subtitle">Property summary report</h3>
-                                        <div class="library__type">
-                                            <span>
-                                                <!-- <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg> -->
-                                                  <img class="library__icon-pdf" src="img/icons/pdfT-icon.svg" alt="icons">
-                                            </span>
-                                            <span class="library__name">PDF</span>
-                                        </div>
-                                    </div>
-                                    <span class="library__span">Coming Soon</span>
-                                </div>
-                            </button>
-                        </article>
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <button class="btn btn-primary library__collapse-btn collapse-btn">Load More</button>
-                    </div>
-                </div>
-
-            </div>
-        </section>
 
         <!-- GENERATE SECTION -->
-        <section class="generate">
+        <section class="generate demo" style="background-image: url(img/Demo/bcgr.png);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="generate__inner text-center">
-                            <h2 class="generate__title title">Generate CRE report directly from CRM</h2>
-                            <p class="generate__text text">Create professional visually appealing
-                                flyers/brochures/reports in your CRM in minutes without designer help.</p>
-                            <div class="row">
-                                <a href="#form" class="btn primary">Request Demo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FEATURES SECTION -->
-        <section class="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2 class="features__title title text-center">Features</h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <!-- Buttons -->
-                    <div class="col">
-                        <div class="features__tabs">
-                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical">
-
-                                <!-- FIRST TAB -->
-                                <a class="nav-link active feature__link feature__link--pdf tab-link"
-                                    id="v-pills-pdf-feature-tab" data-toggle="pill" href="#v-pills-pdf-feature"
-                                    role="tab" aria-controls="v-pills-pdf-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--pdf">
-                                                    <use xlink:href="#pdf">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Documents formats and page
-                                                orientation</h3>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col features__box">
-                                            <span class="features__tabs-descr">All the most popular formats are
-                                                supported. Change page orientation across your template if
-                                                needed.</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- SECOND TAB -->
-                                <a class="nav-link features__link features__link--calc tab-link"
-                                    id="v-pills-calc-feature-tab" data-toggle="pill" href="#v-pills-calc-feature"
-                                    role="tab" aria-controls="v-pills-calc-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--calc">
-                                                    <use xlink:href="#calc">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Tables and calculations</h3>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col features__box">
-                                            <span class="features__tabs-descr">Use tables that will grab data
-                                                from a
-                                                data source with filtering and sorting options. Calculations
-                                                will help
-                                                you to build a summary section.</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- THIRD TAB -->
-                                <a class="nav-link features__link features__link--map tab-link"
-                                    id="v-pills-map-feature-tab" data-toggle="pill" href="#v-pills-map-feature"
-                                    role="tab" aria-controls="v-pills-map-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--maps">
-                                                    <use xlink:href="#maps">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Customizable maps</h3>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col features__box">
-                                            <span class="features__tabs-descr">Build maps with custom styling,
-                                                amenities
-                                                searches and shapes.</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- FOURTH TAB -->
-                                <a class="nav-link features__link features__link--email tab-link"
-                                    id="v-pills-email-feature-tab" data-toggle="pill" href="#v-pills-email-feature"
-                                    role="tab" aria-controls="v-pills-email-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--email">
-                                                    <use xlink:href="#email">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Send visually-appealing branded
-                                                emails
-                                                right from xRe with your brochures</h3>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col features__box">
-                                            <span class="features__tabs-descr">Support your marketing efforts
-                                                with the
-                                                embedded Email templates and PDF generator.</span>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- FIFTH TAB -->
-                                <a class="hide-el nav-link features__link features__link--mailchimp tab-link"
-                                    id="v-pills-mailchimp-feature-tab" data-toggle="pill"
-                                    href="#v-pills-mailchimp-feature" role="tab"
-                                    aria-controls="v-pills-mailchimp-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-                                            <span>
-                                                <svg class="icon icon--mailChimp">
-                                                    <use xlink:href="#mailChimp">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">MailChimp templates</h3>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- SIXTH TAB -->
-                                <a class="hide-el nav-link features__link features__link--img tab-link"
-                                    id="v-pills-img-feature-tab" data-toggle="pill" href="#v-pills-img-feature"
-                                    role="tab" aria-controls="v-pills-img-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--xRe">
-                                                    <use xlink:href="#xRe">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Images from xRe</h3>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- SEVENTH TAB -->
-                                <a class="hide-el nav-link features__link features__link--ftp tab-link"
-                                    id="v-pills-ftp-feature-tab" data-toggle="pill" href="#v-pills-ftp-feature"
-                                    role="tab" aria-controls="v-pills-ftp-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--ftp">
-                                                    <use xlink:href="#ftp">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Landing pages posting via FTP
-                                                connection
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- EIGHTH TAB -->
-                                <a class="hide-el nav-link features__link features__link--filter tab-link"
-                                    id="v-pills-filter-feature-tab" data-toggle="pill" href="#v-pills-filter-feature"
-                                    role="tab" aria-controls="v-pills-filter-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--filter">
-                                                    <use xlink:href="#filter">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Data filtration and sorting
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- NINETH TAB -->
-                                <a class="hide-el nav-link features__link features__link--auto tab-link"
-                                    id="v-pills-auto-feature-tab" data-toggle="pill" href="#v-pills-auto-feature"
-                                    role="tab" aria-controls="v-pills-auto-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--auto">
-                                                    <use xlink:href="#auto">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Automated table of contents
-                                                generating
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- TENTH TAB -->
-                                <a class="hide-el nav-link features__link features__link--send tab-link"
-                                    id="v-pills-send-feature-tab" data-toggle="pill" href="#v-pills-send-feature"
-                                    role="tab" aria-controls="v-pills-send-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--teleg">
-                                                    <use xlink:href="#teleg">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Gathering data from forms into xRe
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </a>
-
-                                <!-- ELEVENTH TAB -->
-                                <a class="hide-el nav-link features__link features__link--multi tab-link"
-                                    id="v-pills-multi-feature-tab" data-toggle="pill" href="#v-pills-multi-feature"
-                                    role="tab" aria-controls="v-pills-multi-feature" aria-selected="true">
-
-                                    <div class="row">
-                                        <div class="col d-flex align-items-center">
-                                            <span>
-                                                <svg class="icon icon--tab">
-                                                    <use xlink:href="#tab-arrow">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <span>
-                                                <svg class="icon icon--magic">
-                                                    <use xlink:href="#magic">
-                                                    </use>
-                                                </svg>
-                                            </span>
-
-                                            <h3 class="features__tabs-title">Generating PDFs by pulling multiple
-                                                records
-                                                with one click
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </a>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Images -->
-                    <div class="col features__content">
-                        <div class="sticky-top tab-content" id="v-pills-tabContent">
-
-                            <!-- First -->
-                            <div class="tab-pane fade show active" id="v-pills-pdf-feature" role="tabpanel"
-                                aria-labelledby="v-pills-pdf-feature-tab">
-                                <img class="feature__img green-shadow" loading="lazy"
-                                    src="img/features-section/Documents formats and page orientation.png"
-                                    alt="Documents formats and page orientation">
-                            </div>
-
-                            <!-- Second -->
-                            <div class="tab-pane fade" id="v-pills-calc-feature" role="tabpanel"
-                                aria-labelledby="v-pills-calc-feature-tab">
-                                <img class="feature__img green-shadow"
-                                    src="img/features-section/Tables and calculations.png" loading="lazy"
-                                    alt="Tables and calculations">
-                            </div>
-
-                            <!-- Third -->
-                            <div class="tab-pane fade" id="v-pills-map-feature" role="tabpanel"
-                                aria-labelledby="v-pills-map-feature-tab">
-                                <img class="feature__img green-shadow" src="img/features-section/Customizable maps.png"
-                                    loading="lazy" alt="Customizable maps">
-                            </div>
-
-                            <!-- Fourth -->
-                            <div class="tab-pane fade" id="v-pills-email-feature" role="tabpanel"
-                                aria-labelledby="v-pills-email-feature-tab">
-                                <img class="feature__img green-shadow"
-                                    src="img/features-section/Send visually-appealing branded emails right from xRe with your brochures.png"
-                                    loading="lazy"
-                                    alt="Send visually-appealing branded emails right from xRe with your brochures">
-                            </div>
-
-                            <!-- Fifth -->
-                            <div class="tab-pane fade" id="v-pills-mailchimp-feature" role="tabpanel"
-                                aria-labelledby="v-pills-mailchimp-feature-tab">
-                                <img class="feature__img green-shadow"
-                                    src="img/features-section/MailChimp integration.png" loading="lazy"
-                                    alt="MailChimp integration">
-                            </div>
-
-                            <!-- Sixth -->
-                            <div class="tab-pane fade" id="v-pills-img-feature" role="tabpanel"
-                                aria-labelledby="v-pills-img-feature-tab">
-                                <img class="feature__img green-shadow" src="img/features-section/Images from xRe.png"
-                                    loading="lazy" alt="Images from xRe">
-                            </div>
-
-                            <!-- Seventh -->
-                            <div class="tab-pane fade" id="v-pills-ftp-feature" role="tabpanel"
-                                aria-labelledby="v-pills-ftp-feature-tab">
-                                <img class="feature__img green-shadow" loading="lazy"
-                                    src="img/features-section/Landing pages posting via FTP connection.png" alt="Landing pages posting via FTP
-                                    connection">
-                            </div>
-
-                            <!-- Eighth -->
-                            <div class="tab-pane fade" id="v-pills-filter-feature" role="tabpanel"
-                                aria-labelledby="v-pills-filter-feature-tab">
-                                <img class="feature__img green-shadow" loading="lazy"
-                                    src="img/features-section/Data filtration and sorting.png"
-                                    alt="Data filtration and sorting">
-                            </div>
-
-                            <!-- Nineth -->
-                            <div class="tab-pane fade" id="v-pills-auto-feature" role="tabpanel"
-                                aria-labelledby="v-pills-auto-feature-tab">
-                                <img class="feature__img green-shadow" loading="lazy"
-                                    src="img/features-section/Automated table of contents generating.png"
-                                    alt="Automated table of contents generating">
-                            </div>
-
-                            <!-- Tenth -->
-                            <div class="tab-pane fade" id="v-pills-send-feature" role="tabpanel"
-                                aria-labelledby="v-pills-send-feature-tab">
-                                <img class="feature__img green-shadow" loading="lazy"
-                                    src="img/features-section/Gathering data from forms into xRe.png"
-                                    alt="Generating PDFs by pulling multiple records with one click">
-                            </div>
-
-                            <!-- Eleventh -->
-                            <div class="tab-pane fade" id="v-pills-multi-feature" role="tabpanel"
-                                aria-labelledby="v-pills-multi-feature-tab">
-                                <img class="feature__img green-shadow" loading="lazy"
-                                    src="img/features-section/Generating PDFs by pulling multiple records with one click.png"
-                                    alt="Generating PDFs by pulling multiple records with one click">
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- MOBILE VERSION of FEATURE ACCORDION -->
-                    <div class="container">
-                        <div class="accordion" id="features-accordion">
-
-                            <!-- FIRST CARD -->
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--pdf">
-                                                            <use xlink:href="#pdf">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">Documents formats and page
-                                                        orientation</h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow"></use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col features__box">
-                                                <span class="features__tabs-descr">All the most popular
-                                                    formats are
-                                                    supported. Change page orientation across your template
-                                                    if
-                                                    needed.</span>
-                                            </div>
-                                        </div>
-                                    </button>
-                                </div>
-                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Documents formats and page orientation.png"
-                                            alt="Documents formats and page orientation">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- SECOND CARD -->
-                            <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
-                                        aria-controls="collapseTwo">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--calc">
-                                                            <use xlink:href="#calc">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">Tables and calculations</h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow"></use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col features__box">
-                                                <span class="features__tabs-descr">Use tables that will grab data
-                                                    from a
-                                                    data source with filtering and sorting options. Calculations
-                                                    will help
-                                                    you to build a summary section.</span>
-                                            </div>
-                                        </div>
-                                    </button>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Tables and calculations.png" alt="Tables and
-                                            calculations">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- THIRD CARD -->
-                            <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
-                                        aria-controls="collapseThree">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--maps">
-                                                            <use xlink:href="#maps">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">
-                                                        Customizable maps
-                                                    </h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--arrow icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col features__box">
-                                                <span class="features__tabs-descr">Build maps with custom styling,
-                                                    amenities
-                                                    searches and shapes.</span>
-                                            </div>
-                                        </div>
-                                    </button>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Customizable maps.png" alt="Customizable maps">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- FOURTH CARD -->
-                            <div class="card">
-                                <div class="card-header" id="headingFour">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
-                                        aria-controls="collapseFour">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--email">
-                                                            <use xlink:href="#email">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">
-                                                        Send visually-appealing branded
-                                                        emails
-                                                        right from xRe with your brochures
-                                                    </h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--arrow icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col features__box">
-                                                <span class="features__tabs-descr">Support your marketing efforts
-                                                    with the
-                                                    embedded Email templates and PDF generator.</span>
-                                            </div>
-                                        </div>
-                                    </button>
-                                </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Send visually-appealing branded emails right from xRe with your brochures.png"
-                                            alt="Send visually-appealing branded emails
-                                            right from
-                                            xRe with your brochures">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- FIFTH CARD -->
-                            <div class="card hide-el">
-                                <div class="card-header" id="headingFive">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
-                                        aria-controls="collapseFive">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--mailChimp">
-                                                            <use xlink:href="#mailChimp">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">
-                                                        MailChimp templates
-                                                    </h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--arrow icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </button>
-                                </div>
-                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/MailChimp integration.png" alt="MailChimp
-                                            integration">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- SIXTH CARD -->
-                            <div class="card hide-el">
-                                <div class="card-header" id="headingSix">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseSix" aria-expanded="true"
-                                        aria-controls="collapseSix">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--xRe">
-                                                            <use xlink:href="#xRe">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">
-                                                        Images from xRe
-                                                    </h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--arrow icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </button>
-                                </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Images from xRe.png" alt="Images from xRe">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- SEVENTH CARD -->
-                            <div class="card hide-el">
-                                <div class="card-header" id="headingSeven">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
-                                        aria-controls="collapseSeven">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--ftp">
-                                                            <use xlink:href="#ftp">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">
-                                                        Landing pages posting via FTP
-                                                        connection</h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--arrow icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow"></use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </button>
-                                </div>
-                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Landing pages posting via FTP connection.png"
-                                            alt="Landing pages posting via FTP connection">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- EIGHTH CARD -->
-                            <div class="card hide-el">
-                                <div class="card-header" id="headingEight">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseEight" aria-expanded="true"
-                                        aria-controls="collapseEight">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--filter">
-                                                            <use xlink:href="#filter">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">
-                                                        Data filtration and sorting
-                                                    </h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--arrow icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </button>
-                                </div>
-                                <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Data filtration and sorting.png" alt="Data
-                                            filtration and sorting">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- NINETH CARD -->
-                            <div class="card hide-el">
-                                <div class="card-header" id="headingNine">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseNine" aria-expanded="true"
-                                        aria-controls="collapseNine">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--auto">
-                                                            <use xlink:href="#auto">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">
-                                                        Automated table of contents
-                                                        generating
-                                                    </h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--arrow icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </button>
-                                </div>
-                                <div id="collapseNine" class="collapse" aria-labelledby="headingNine"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Automated table of contents generating.png"
-                                            alt="Automated table of contents generating">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- TENTH CARD -->
-                            <div class="card hide-el">
-                                <div class="card-header" id="headingTen">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseTen" aria-expanded="true"
-                                        aria-controls="collapseTen">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--teleg">
-                                                            <use xlink:href="#teleg">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">
-                                                        Gathering data from forms into xRe
-                                                    </h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--arrow icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </button>
-                                </div>
-                                <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Gathering data from forms into xRe.png" alt="Generating PDFs by pulling multiple records with
-                                            one click">
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- ELEVENTH CARD -->
-                            <div class="card hide-el">
-                                <div class="card-header" id="headingEleven">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseEleven" aria-expanded="true"
-                                        aria-controls="collapseEleven">
-                                        <div class="row">
-                                            <div
-                                                class="col d-flex align-items-center justify-content-between card__inner">
-                                                <div class="card__box">
-                                                    <span>
-                                                        <svg class="icon icon--magic">
-                                                            <use xlink:href="#magic">
-                                                            </use>
-                                                        </svg>
-                                                    </span>
-                                                    <h3 class="features__tabs-title">
-                                                        Generating PDFs by pulling multiple
-                                                        records
-                                                        with one click
-                                                    </h3>
-                                                </div>
-                                                <span>
-                                                    <svg class="icon icon--arrow icon--faq-arrow">
-                                                        <use xlink:href="#faq-arrow">
-                                                        </use>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                    </button>
-                                </div>
-                                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
-                                    data-parent="#features-accordion">
-                                    <div class="card-body">
-                                        <img class="feature__img green-shadow" loading="lazy"
-                                            src="img/features-section/Generating PDFs by pulling multiple records with one click.png"
-                                            alt="Generating PDFs by pulling multiple records with one click">
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Accordion BTN -->
-                <div class="row">
-                    <div class="col text-center">
-                        <button class="btn btn-primary collapse-btn features__collapse-btn">Full features list</button>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- PRICING SECTION -->
-        <section class="pricing">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-xl-12 d-flex justify-content-center">
-                        <div class="pricing__inner text-center">
-                            <h2 class="pricing__title title">Pricing</h2>
-                            <p class="pricing__text text">Get a Composer Online as a part of xRE packages: Enterprise
-                                and Unlimited.
-                                Choose the most suitable features and access to advanced functionality - no extra
-                                fees.
+                            <h2 class="generate__title title">
+                                Get AscendixRE Demo
+                            </h2>
+                            <p class="generate__text text">
+                                See AscendixRE in action and learn how it can help you sell, lease, manage, and invest
+                                in commercial real estate.
                             </p>
+                            <div class="row">
+                                <a href="#form" class="btn primary generate__btn">Request Demo</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-sm-6 pricing__col">
-                        <article class="pricing__card">
-
-                            <div class="pricing__heading">
-                                <h3 class="pricing__subtitle pricing__plan">
-                                    xRE Enterprise
-                                </h3>
-                                <span class="pricing__span">
-                                    Optimal plan
-                                </span>
-                                <span class="pricing__num pricing__plan">
-                                    $99/month
-                                </span>
-                            </div>
-
-                            <ul class="pricing__list">
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name pricing__name--bold">Composer Online</span>
-                                </li>
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name">Ascendix Search</span>
-                                </li>
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name">Stacking Plans</span>
-                                </li>
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name">Concierge Service</span>
-                                </li>
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name">Up to 20 Custom Objects</span>
-                                </li>
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name">Commission Calculations</span>
-                                </li>
-                            </ul>
-
-                            <a href="#form" class="btn primary">Request Demo</a>
-
-                        </article>
-
-                    </div>
-
-                    <div class="col-sm-6 pricing__col">
-                        <article class="pricing__card pricing__card--green">
-
-                            <div class="pricing__heading">
-                                <h3 class="pricing__subtitle pricing__plan">
-                                    xRE Unlimited
-                                </h3>
-                                <span class="pricing__span">
-                                    For advanced users
-                                </span>
-                                <span class="pricing__num pricing__plan">
-                                    $129/month
-                                </span>
-                            </div>
-
-                            <ul class="pricing__list">
-                                <li class="pricing__item">
-                                    <p class="pricing__text">All the items included in xRE Enterprise plan</p>
-                                </li>
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name pricing__name--bold">Composer Online</span>
-                                </li>
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name">Property Listings Portal</span>
-                                </li>
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name">Secure Deal Rooms</span>
-                                </li>
-                                <li class="pricing__item">
-                                    <span>
-                                        <svg class="icon icon--check">
-                                            <use xlink:href="#check"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="pricing__name">Automated Lead Capture</span>
-                                </li>
-
-                            </ul>
-
-                            <a href="#form" class="btn primary">Get Everything!</a>
-
-                        </article>
-                    </div>
-                </div>
-
             </div>
         </section>
 
         <!-- REASONS SECTION -->
-        <section class="reasons">
+        <section class="reasons deals">
             <div class="container">
                 <div class="row">
                     <div class="col">
                         <div class="reasons__inner text-center">
-                            <h2 class="reasons__title title">Reasons for Choosing Composer Online</h2>
+                            <h2 class="reasons__title title">
+                                Deals: Track Relationships Even More Richly
+                            </h2>
+                            <p class="reasons__text text">
+                                AscendixRE is a one-stop solution for common commercial real estate deal types:
+                                landlord, buyer, seller, and tenant representation, asset management, lease
+                                administration, property management, listing distribution, capital markets, financing,
+                                consulting, and more. No need to decide what fields to create. Everything is prebuilt
+                                for you.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -1828,187 +318,824 @@
                 <div class="row justify-content-center">
                     <!-- first card -->
                     <div class="col-md-4 col-sm-5">
-                        <article class="reasons__card">
+                        <article class="reasons__card green-shadow">
                             <div class="reasons__card-heading">
-                                 <img src="img/icons/time.png" loading="lazy" alt="CO icon-1"
-                                class="reasons__icon-time">
-                                <!-- <span>
-                                    <svg class="icon icon--time">
-                                        <use xlink:href="#time"></use>
-                                    </svg>
-                                </span> -->
-                                <h3 class="reasons__subtitle">
-                                    Time-effective
-                                </h3>
+                                <img src="img/Deals/landlords.png" loading="lazy" alt="CO icon-1"
+                                    class="reasons__icon-time" />
+                                <h3 class="reasons__subtitle">Landlord Representation</h3>
                             </div>
                             <p class="reasons__text">
-                                Composer as a report generation tool, saves brokers 10+ hours monthly. Build attractive
-                                reports, flyers, and brochures from scratch in minutes.
+                                Maximize property values by attracting top tenants to your property and tracking
+                                communication with them.
                             </p>
                         </article>
                     </div>
 
                     <!-- second card -->
                     <div class="col-md-4 col-sm-5">
-                        <article class="reasons__card">
+                        <article class="reasons__card green-shadow">
                             <div class="reasons__card-heading">
-                                 <img src="img/icons/noManual.png" loading="lazy" alt="CO icon-2"
-                                class="reasons__icon-pills">
-                                <!-- <span>
-                                    <svg class="icon icon--magic">
-                                        <use xlink:href="#magic"></use>
-                                    </svg>
-                                </span> -->
-                                <h3 class="reasons__subtitle">
-                                    No manual input
-                                </h3>
+                                <img src="img/Deals/buyer.png" loading="lazy" alt="CO icon-2"
+                                    class="reasons__icon-pills" />
+                                <h3 class="reasons__subtitle">Buyer Representation</h3>
                             </div>
                             <p class="reasons__text">
-                                Composer automatically pulls property information and images from your core CRM. Hence,
-                                you avoid manual data input.
+                                Help buyers select the optimal property and provide them with detailed reports on your
+                                activities based on your commercial real estate CRM software.
                             </p>
                         </article>
                     </div>
 
                     <!-- third card -->
                     <div class="col-md-4 col-sm-5">
-                        <article class="reasons__card">
+                        <article class="reasons__card green-shadow">
                             <div class="reasons__card-heading">
-                                <img src="img/icons/Amultiface.png" loading="lazy" alt="CO icon-3"
-                                class="reasons__icon-multiface">
-                                <!-- <span>
-                                    <svg class="icon icon--multi">
-                                        <use xlink:href="#multi"></use>
-                                    </svg>
-                                </span> -->
-                                <h3 class="reasons__subtitle">
-                                    A Multifaceted Tool
-                                </h3>
+                                <img src="img/Deals/seller.png" loading="lazy" alt="CO icon-3"
+                                    class="reasons__icon-multiface" />
+                                <h3 class="reasons__subtitle">Seller Representation</h3>
                             </div>
                             <p class="reasons__text">
-                                Composer is a multifaceted report generation tool. Create marketing brochures, various
-                                activity reports, and documents to keep your clients up to date.
+                                Keep an up-to-date commercial real estate database of assets, buyers, sellers, and
+                                pricing information. Use prospecting and marketing tools to get in touch with potential
+                                buyers.
                             </p>
                         </article>
                     </div>
 
                     <!-- fourth card -->
                     <div class="col-md-4 col-sm-5">
-                        <article class="reasons__card reasons__card--big ">
+                        <article class="reasons__card green-shadow">
                             <div class="reasons__card-heading">
-                                <img src="img/icons/noIntegr.png" loading="lazy" alt="CO icon-4"
-                                class="reasons__icon-noInteger">
-                                <!-- <span>
-                                    <svg class="icon icon--noInt">
-                                        <use xlink:href="#noInt"></use>
-                                    </svg>
-                                </span> -->
-                                <h3 class="reasons__subtitle">
-                                    No Integration is Needed
-                                </h3>
+                                <img src="img/Deals/tenant.png" loading="lazy" alt="CO icon-4"
+                                    class="reasons__icon-noInteger" />
+                                <h3 class="reasons__subtitle">Tenant Representation</h3>
                             </div>
                             <p class="reasons__text">
-                                Install our report generation tool from AppExchange and start using Composer
-                                immediately. Enter Composer just for one time - no extra logins required.
+                                Provide customers with the best offices/properties for the best price on the market
+                                thanks to up-to-date CRM property data and robust property search tools.
                             </p>
                         </article>
                     </div>
 
                     <!-- fifth card -->
                     <div class="col-md-4 col-sm-5">
-                        <article class="reasons__card reasons__card--big ">
+                        <article class="reasons__card green-shadow">
                             <div class="reasons__card-heading">
-                                 <img src="img/icons/largeLibr.png" loading="lazy" alt="CO icon-5"
-                                class="reasons__icon-libr">
-                                <!-- <span>
-                                    <svg class="icon icon--library">
-                                        <use xlink:href="#library"></use>
-                                    </svg>
-                                </span> -->
-                                <h3 class="reasons__subtitle">
-                                    Large Library of Templates
-                                </h3>
+                                <img src="img/Deals/lease.png" loading="lazy" alt="CO icon-5"
+                                    class="reasons__icon-libr" />
+                                <h3 class="reasons__subtitle">Lease Administration</h3>
                             </div>
                             <p class="reasons__text">
-                                Composer has a great library of templated reports, flyers, and brochures. Stand out from
-                                competitors by creating neat and visually-appealing marketing collaterals.
+                                Store all lease information in one place, use interactive stacking plans to see lease
+                                details (expiration and rent). Get lists of tenants to follow up with our advanced
+                                commercial real estate contact management software.
                             </p>
                         </article>
                     </div>
 
                     <!-- sixth card -->
                     <div class="col-md-4 col-sm-5">
-                        <article class="reasons__card reasons__card--big">
+                        <article class="reasons__card green-shadow">
                             <div class="reasons__card-heading">
-                                 <img src="img/icons/intuitiveUI.png" loading="lazy" alt="CO icon-6"
-                                class="reasons__icon-intuit">
-                                <!-- <span>
-                                    <svg class="icon icon--smile">
-                                        <use xlink:href="#smile"></use>
-                                    </svg>
-                                </span> -->
-                                <h3 class="reasons__subtitle">
-                                    Intuitive design
-                                </h3>
+                                <img src="img/Deals/property.png" loading="lazy" alt="CO icon-6"
+                                    class="reasons__icon-intuit" />
+                                <h3 class="reasons__subtitle">Property Management</h3>
                             </div>
                             <p class="reasons__text">
-                                Visualize key metrics and generate brochures using intuitive design of Composer. No
-                                training is needed. Design as you wish from the very beginning using our advanced report
-                                generation tool and brochure creator.
+                                Monitor and track leads, manage properties throughout the entire rental process, get
+                                notified on upcoming lease expirations.
                             </p>
                         </article>
                     </div>
 
-                </div>
+                    <!-- seventh card -->
+                    <div class="col-md-4 col-sm-5">
+                        <article class="reasons__card green-shadow reasons__card--small">
+                            <div class="reasons__card-heading">
+                                <img src="img/Deals/asset.png" loading="lazy" alt="CO icon-6"
+                                    class="reasons__icon-intuit" />
+                                <h3 class="reasons__subtitle">Asset Management</h3>
+                            </div>
+                            <p class="reasons__text">
+                                Track all assets in one place and access all information from any device whenever you
+                                need it.
+                            </p>
+                        </article>
+                    </div>
 
+                    <!-- eight card -->
+                    <div class="col-md-4 col-sm-5">
+                        <article class="reasons__card green-shadow reasons__card--small">
+                            <div class="reasons__card-heading">
+                                <img src="img/Deals/financing.png" loading="lazy" alt="CO icon-6"
+                                    class="reasons__icon-intuit" />
+                                <h3 class="reasons__subtitle">Financing</h3>
+                            </div>
+                            <p class="reasons__text">
+                                AscendixRE supports tracking Financing deals. Use drag and drop to move your deals in
+                                the
+                                pipeline and forecast expected revenues.
+                            </p>
+                        </article>
+                    </div>
+
+                    <!-- nineth card -->
+                    <div class="col-md-4 col-sm-5">
+                        <article class="reasons__card green-shadow reasons__card--small">
+                            <div class="reasons__card-heading">
+                                <img src="img/Deals/consulting.png" loading="lazy" alt="CO icon-6"
+                                    class="reasons__icon-intuit" />
+                                <h3 class="reasons__subtitle">Consulting</h3>
+                            </div>
+                            <p class="reasons__text">
+                                Track commercial real estate consulting deals, and store all communication and
+                                interaction in one place.
+                            </p>
+                        </article>
+                    </div>
+
+
+                </div>
             </div>
         </section>
 
-        <!-- CLIENTS SECTION -->
-        <section class="clients">
-            <div class="container">
+        <!-- STEPS SECTION -->
+        <section class="steps xre-features">
+            <div class="container steps__container">
                 <div class="row">
-                    <div class="col">
-                        <div class="clients__inner text-center">
-                            <h2 class="clients__title title">Our Clients</h2>
+                    <div class="col-xl-12">
+                        <div class="text-center">
+                            <h2 class="steps__title title">
+                                Features
+                            </h2>
                         </div>
                     </div>
                 </div>
 
-                <div class="row align-items-center">
-                    <div class="col-sm-3 d-flex justify-content-center">
-                        <a href="#" class="client__link">
-                            <img src="img/clients-section/colliers-logo.png" loading="lazy" alt="Client`s Logo">
-                        </a>
+                <!-- First card -->
+                <div class="row align-items-center steps__inner">
+                    <div class="col-md-6 steps__box-img">
+                        <img src="img/Features block/Robust CommercRE CRM Functionality Image.png" loading="lazy"
+                            alt="CO screen-1" class="steps__img grey-shadow" />
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="steps__subtitle subtitle">
+                            Robust Commercial Real Estate CRM Functionality
+                        </h3>
+                        <ul class="steps__list">
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Get a global view of all deal flow in one place.
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Update the sales stage with drag and drop and see the projected dollars in your
+                                    pipeline in real-time.
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Know about all related listings, prospective properties, financial information,
+                                    sales/lease terms, and all involved connections from the buyer and lender side.
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Attach related leases, listings, deal periods, and even commissions.
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Track your team activities and tasks and know who from your team is related to the
+                                    same accounts or properties. Don’t miss an opportunity to benefit from the insider
+                                    info. Impress with your expertise and knowledge.
+
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Track your team activities and tasks and know who from
+                                    your team is related to the
+                                    same accounts or properties. Don’t miss an opportunity
+                                    to benefit from the insider
+                                    info. Impress with your expertise and knowledge.
+
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Prioritize your time and get more meetings, more activity, and a bigger pipeline.
+                                </p>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Second card -->
+                <div class="row align-items-center steps__inner steps__middle-card">
+                    <div class="col-md-6">
+                        <h3 class="steps__subtitle subtitle">
+                            Track Inquiries for Lease and for Sale
+                        </h3>
+                        <p class="steps__text text">
+                            Lease and Sales history tracking takes no more effort with AscendixRE commercial real estate
+                            broker CRM.
+                        </p>
+
+                        <ul class="steps__list">
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Save the most critical information for your lease or sale inquiries:
+                                    contact info, activity history, property type and class, expected square footage and
+                                    rent, region, and a required move-in date. All these fields are prebuilt for you.
+                                    place.
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Need something else? Easily add any fields and values to make the system truly
+                                    yours.
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Create markets and regions that are meaningful to your brokerage.
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Add as many new fields as you wish.
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-6 steps__box-img">
+                        <img src="img/Features block/Track Inquiries image.png" loading="lazy" alt="CO screen-2"
+                            class="steps__img grey-shadow" />
+                    </div>
+                </div>
+
+                <!-- Third card -->
+                <div class="row align-items-center steps__inner">
+                    <div class="col-md-6 steps__box-img">
+                        <img src="img/Features block/Intuitive Prospecting Tool image.png" loading="lazy"
+                            alt="CO screen-3" class="steps__img" />
+                    </div>
+                    <div class="col-md-6">
+
+                        <h3 class="steps__subtitle subtitle">
+                            Intuitive Prospecting Tool
+                        </h3>
+                        <p class="steps__text text">
+                            Ascendix Search is a Salesforce app available for all AscendixRE users out of the box,
+                            helping you mine targeted lists
+                            of contacts to make calls and send “targeted batches” of emails out.
+                        </p>
+                        <ul class="steps__list">
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Create call and email lists using multiple criteria
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Track lease expiration dates and move-in dates of your leads
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Get properties and availabilities that match your clients’ requirements thanks to
+                                    the detailed filtering functionality
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Locate your records on a map and use that map to narrow down your search. Draw
+                                    shapes on a map to get properties or other records from a specific territory
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Mass edit and update your records and add multiple notes, events, and calls all at
+                                    once.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Fourth card -->
+                <div class="row align-items-center steps__inner steps__middle-card">
+                    <div class="col-md-6">
+                        <h3 class="steps__subtitle subtitle">
+                            Run Your Brokerage On the Go
+                        </h3>
+                        <p class="steps__text text">
+                            Keep working in Outlook or Gmail while we create new contacts, accounts and save the history
+                            of your communication
+                            automatically. Get a grounding of your interactions and conversations with every person
+                            without leaving your Outlook and
+                            from your phone screen.
+                            Stay mobile and work with your commercial real estate clientele and database wherever you
+                            are with our commercial real
+                            estate app for iPhone and Android and our handy Outlook and Gmail Integrations!
+                        </p>
+
+                        <ul class="steps__list">
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    View and work with your CRM records directly in Outlook and via
+                                    mobile phone.
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Search your contacts, leads, properties, and other records.
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Create new contacts, leads, and accounts right in your Outlook or in the mobile app.
+                                    We will automatically prefill the contact detail fields for you.
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    One click and your email correspondence will be added to the CRM.
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Call your contacts right from our mobile app.
+                                </p>
+                            </li>
+
+                            <li class="steps__item">
+                                <p class="steps__text text">
+                                    Create notes and schedule new events using your voice or by typing.
+                                </p>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <div class="col-md-6 steps__box-img">
+                        <img src="img/Features block/Run Your Brokerage On the Go Image.png" loading="lazy"
+                            alt="CO screen-2" class="steps__img grey-shadow" />
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- FORM -->
+        <section class="form" id="form" style="background-image: url(img/Get-demo/CTA\ background.png)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form__inner text-center">
+                            <div class="form__content">
+                                <h2 class="form__title title">Get AscendixRE Demo</h2>
+                                <p class="form__text text">
+                                    Need a commercial real estate CRM? We will be happy to show how we can optimize your
+                                    workflow. Book a Live AscendixRE Demonstration.
+                                </p>
+                            </div>
+                            <form class="form__row" action="https://ascendixtech.com/thank-you/" method="get">
+                                <div class="form__box">
+                                    <label class="form__label">
+                                        <input type="text" class="form__name" placeholder="Full Name" required />
+                                        <span>
+                                            <svg class="icon icon--name">
+                                                <use xlink:href="#form-name"></use>
+                                            </svg>
+                                        </span>
+                                    </label>
+                                    <label class="form__label">
+                                        <input type="email" class="form__email" placeholder="Work Email" required />
+                                        <span>
+                                            <svg class="icon icon--form-email">
+                                                <use xlink:href="#form-email"></use>
+                                            </svg>
+                                        </span>
+                                    </label>
+                                </div>
+                                <button class="btn primary form__btn" type="submit">
+                                    Contact me
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Brokers SECTION -->
+        <section class="brokers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="text-center">
+                            <h2 class="steps__title title">
+                                Brokers Love AscendixRE
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row justify-content-center">
+
+
+                    <!-- First card -->
+                    <div class="col-md-6">
+                        <article class="brokers__card">
+                            <div class="brokers__img-box">
+                                <img src="img/Brokers/Lora Munson.png" loading="lazy" alt="person"
+                                    class="brokers__img" />
+                            </div>
+
+                            <div class="brokers__content-box">
+                                <div class="brokers__content-top">
+                                    <h3 class="brokers__name subtitle">
+                                        Lora Munson
+                                    </h3>
+                                    <span class="brokers__title">Executive Vice President at Colliers
+                                        International Utah</span>
+                                </div>
+
+                                <div class="brokers__content-bottom">
+                                    <span class="brokers__span"
+                                        style="background-image: url(img/Brokers/quote\ icon.png)"></span>
+                                    <p class="brokers__text text">
+                                        I am a commercial broker and have used various platforms for CRM. I switched to
+                                        AscendixRE
+                                        for a number of reasons. I wanted a platform that would notify me and my clients
+                                        by
+                                        email of
+                                        critical dates, rent increases etc. No other platform was able to do that. The
+                                        ease
+                                        of
+                                        use
+                                        of the software is also wonderful and the ability to easily customize things has
+                                        been a
+                                        huge
+                                        plus. I also appreciate that the cost of this platform is well below the full
+                                        Salesforce
+                                        subscription but it has everything I need to run my business.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
 
-                    <div class="col-sm-3 d-flex justify-content-center">
-                        <a href="#" class="client__link">
-                            <img src="img/clients-section/cresa-logo.png" loading="lazy" alt="Client`s Logo">
-                        </a>
+                    <!-- Second card -->
+                    <div class="col-md-6">
+                        <article class="brokers__card">
+                            <div class="brokers__img-box">
+                                <img src="img/Brokers/Brandon Vandermyde.png" loading="lazy" alt="person"
+                                    class="brokers__img" />
+                            </div>
+
+                            <div class="brokers__content-box">
+                                <div class="brokers__content-top">
+                                    <h3 class="brokers__name subtitle">
+                                        Brandon Vandermyde
+                                    </h3>
+                                    <span class="brokers__title">Senior Vice President, NAI Excel</span>
+                                </div>
+
+                                <div class="brokers__content-bottom">
+                                    <span class="brokers__span"
+                                        style="background-image: url(img/Brokers/quote\ icon.png)"></span>
+                                    <p class="brokers__text text">
+                                        AscendixRE has given me the ability to create follow-up reminders to reach out
+                                        to former clients has been invaluable. I have been able to use that same
+                                        dashboard to let me know which deals I have not been paid for. It reminds me
+                                        every time I pull up my dashboards, which means I don’t let my hard-earned
+                                        commissions slip through the cracks by forgetting to follow up with landlords
+                                        who still owe.
+                                    </p>
+                                    <a href="#" class="brokers__link">Read More</a>
+                                </div>
+                            </div>
+                        </article>
                     </div>
 
-                    <div class="col-sm-3 d-flex justify-content-center">
-                        <a href="#" class="client__link">
-                            <img src="img/clients-section/cush.png" loading="lazy" alt="Client`s Logo">
-                        </a>
+                    <!-- Third card -->
+                    <div class="col-md-6">
+                        <article class="brokers__card brokers__card--bottom">
+                            <div class="brokers__img-box">
+                                <img src="img/Brokers/Barry Spagna.png" loading="lazy" alt="person"
+                                    class="brokers__img" />
+                            </div>
+
+                            <div class="brokers__content-box">
+                                <div class="brokers__content-top">
+                                    <h3 class="brokers__name subtitle">
+                                        Barry Spagna
+                                    </h3>
+                                    <span class="brokers__title">CRESA New York</span>
+                                </div>
+
+                                <div class="brokers__content-bottom">
+                                    <span class="brokers__span"
+                                        style="background-image: url(img/Brokers/quote\ icon.png)"></span>
+                                    <p class="brokers__text text">
+                                        What Was I Waiting For. I was using a combination of excel and outlook for CRM,
+                                        a system that was time-consuming and not very effective. On the urging of my
+                                        colleagues, I decided to give Ascendix a try. I kept kicking the can down the
+                                        road unwilling to have to deal with the headaches of switching over to a new way
+                                        of working. What a difference! The overall experience from migrating my
+                                        hodge-podge of data from my excel sheets, implementation, training, and
+                                        troubleshooting any issues which are caused by my own ignorance has been
+                                        extremely positive. The customer service has been exceptional, I could not ask
+                                        for more. AscendixRE has made me more organized, efficient which has caused me
+                                        to have a new focus on my new business development.
+                                    </p>
+                                    <a href="#" class="brokers__link">Read More</a>
+                                </div>
+                            </div>
+                        </article>
                     </div>
 
-                    <div class="col-sm-3 d-flex justify-content-center">
-                        <a href="#" class="client__link">
-                            <img src="img/clients-section/jll-logo.png" loading="lazy" alt="Client`s Logo">
-                        </a>
+                    <!-- Fourth card -->
+                    <div class="col-md-6">
+                        <article class="brokers__card brokers__card--bottom">
+                            <div class="brokers__img-box">
+                                <img src="img/Brokers/Colt Power.png" loading="lazy" alt="person"
+                                    class="brokers__img" />
+                            </div>
+
+                            <div class="brokers__content-box">
+                                <div class="brokers__content-top">
+                                    <h3 class="brokers__name subtitle">
+                                        Colt Power
+                                    </h3>
+                                    <span class="brokers__title">Partner, Robert Lynn</span>
+                                </div>
+
+                                <div class="brokers__content-bottom">
+                                    <span class="brokers__span"
+                                        style="background-image: url(img/Brokers/quote\ icon.png)"></span>
+                                    <p class="steps__text text">
+                                        Awesome Tool. I switched from ClientLook primarily because Ascendix offered
+                                        several tools that were not available to me in ClientLook. The mapping and bulk
+                                        record editing functions within Ascendix Search were hugely important to me and
+                                        what I was missing in ClientLook, as well as better tracking/projecting of
+                                        commission pipeline and comp recording & management. Additionally, the friendly,
+                                        easy to learn user interface and general dependability of Ascendix, being run on
+                                        the Salesforce platform, was a huge step up versus ClientLook. I think once
+                                        fully onboarded and adjusted to Ascendix, it will hugely improve the efficiency
+                                        and effectiveness of my team. I look forward to seeing my business improve and
+                                        grow thanks to Ascendix!
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 </div>
 
             </div>
         </section>
 
+        <!-- PRICING SECTION -->
+        <section class="pricing" style="background-image: url(img/Pricing/bcgr.png)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 d-flex justify-content-center">
+                        <div class="pricing__inner text-center">
+                            <h2 class="pricing__title title">AscendixRE Pricing</h2>
+                            <p class="pricing__text text">
+                                Our affordable pricing plans make AscendixRE one of the best commercial real estate CRMs
+                                offering the most optimal value proposition on the market.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-12 d-flex justify-content-center">
+
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 col-sm-5 pricing__col">
+                                <article class="pricing__card">
+                                    <div class="pricing__heading">
+                                        <h3 class="pricing__subtitle pricing__plan">
+                                            xRE Foundations
+                                        </h3>
+                                        <span class="pricing__span">Core CRM Functionality</span>
+                                        <span class="pricing__num pricing__plan">$79/month</span>
+                                    </div>
+
+                                    <ul class="pricing__list">
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Lease, Sale, Property, Listings,
+                                                Availabilites, Capital Sources Tracking</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Pre-Build CRE Fields & Reports</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Traditional CRM Functionality</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">check-circle
+                                                Salesforce License</span>
+                                        </li>
+
+                                    </ul>
+
+                                    <a href="#form" class="btn primary pricing__btn">Request Demo</a>
+                                </article>
+                            </div>
+
+                            <div class="col-md-4 col-sm-5 pricing__col">
+                                <article class="pricing__card">
+                                    <div class="pricing__heading">
+                                        <h3 class="pricing__subtitle pricing__plan">
+                                            xRE Enterprise
+                                        </h3>
+                                        <span class="pricing__span"> Optimal plan </span>
+                                        <span class="pricing__num pricing__plan"> $99/month </span>
+                                    </div>
+
+                                    <ul class="pricing__list">
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Composer
+                                                Online</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Ascendix Search</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Stacking Plans</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Concierge Service</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Up to 20 Custom Objects</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Commission Calculations</span>
+                                        </li>
+                                    </ul>
+
+                                    <a href="#form" class="btn primary pricing__btn">Request Demo</a>
+                                </article>
+                            </div>
+
+                            <div class="col-md-4 col-sm-5 pricing__col">
+                                <article class="pricing__card pricing__card--dark">
+                                    <div class="pricing__heading">
+                                        <h3 class="pricing__subtitle pricing__plan">xRE Unlimited</h3>
+                                        <span class="pricing__span"> For advanced users </span>
+                                        <span class="pricing__num pricing__plan"> $129/month </span>
+                                    </div>
+
+                                    <ul class="pricing__list">
+                                        <li class="pricing__item">
+                                            <p class="pricing__text">
+                                                All the items included in xRE Enterprise plan
+                                            </p>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name pricing__name--bold">Composer Online</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Property Listings Portal</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Secure Deal Rooms</span>
+                                        </li>
+                                        <li class="pricing__item">
+                                            <span>
+                                                <svg class="icon icon--check">
+                                                    <use xlink:href="#check"></use>
+                                                </svg>
+                                            </span>
+                                            <span class="pricing__name">Automated Lead Capture</span>
+                                        </li>
+                                    </ul>
+
+                                    <a href="#form" class="btn primary pricing__btn">Get Everything!</a>
+                                </article>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <!-- FAQ -->
         <section class="faq">
             <div class="container faq__container">
-
                 <div class="row">
                     <div class="col">
                         <h2 class="faq__title title text-center">F.A.Q.</h2>
@@ -2017,10 +1144,8 @@
                 <div class="row">
                     <div class="col">
                         <div class="container">
-
                             <!-- FAQ ACCORDION -->
                             <div class="faq__accordion accordion" id="faq-accordion">
-
                                 <!-- FIRST CARD -->
                                 <div class="card">
                                     <div class="card-header" id="difference">
@@ -2029,14 +1154,14 @@
                                             aria-controls="collapseUno">
                                             <div class="row">
                                                 <div class="col d-flex align-items-center justify-content-between">
-                                                    <h3 class="features__tabs-title">What Differentiates Composer
-                                                        Online from other Report Generation Tools?</h3>
+                                                    <h3 class="features__tabs-title">
+                                                        What is CRM in commercial real estate?
+                                                    </h3>
                                                     <span>
                                                         <svg class="icon icon--arrow icon--faq-arrow">
                                                             <use xlink:href="#faq-arrow"></use>
                                                         </svg>
                                                     </span>
-
                                                 </div>
                                             </div>
                                         </button>
@@ -2045,12 +1170,13 @@
                                     <div id="collapseUno" class="collapse" aria-labelledby="difference"
                                         data-parent="#faq-accordion">
                                         <div class="card-body">
-                                            <p>Composer is a world-class Commercial Real Estate CRM tool and a report
-                                                generation tool that besides advanced functionality and flexible
-                                                interface design fully integrates with AscendixRE CRM and has a
-                                                reasonable price. Composer is included in the $99/user/mo AscendixRE
-                                                Enterprise plan, which gives you access to both advanced CRM
-                                                functionality and a report generation tool. No extra fees. </p>
+                                            <p>
+                                                CRM (Customer Relationship Management) in commercial real estate
+                                                businesses is a tool that organizes and manages client interactions. It
+                                                assists in contact management, lead management & tracking, pipeline
+                                                management, task automation, deal tracking, back office management, and
+                                                improving customer service for real estate professionals.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -2063,8 +1189,9 @@
                                             aria-controls="collapseDos">
                                             <div class="row">
                                                 <div class="col d-flex align-items-center justify-content-between">
-                                                    <h3 class="features__tabs-title">How can you use Composer in
-                                                        Salesforce?</h3>
+                                                    <h3 class="features__tabs-title">
+                                                        How to choose a commercial real estate CRM?
+                                                    </h3>
                                                     <span>
                                                         <svg class="icon icon--arrow icon--faq-arrow">
                                                             <use xlink:href="#faq-arrow"></use>
@@ -2078,12 +1205,16 @@
                                     <div id="collapseDos" class="collapse" aria-labelledby="using"
                                         data-parent="#faq-accordion">
                                         <div class="card-body">
-                                            <p>Composer is a world-class Commercial Real Estate CRM tool and a report
-                                                generation tool that besides advanced functionality and flexible
-                                                interface design fully integrates with AscendixRE CRM and has a
-                                                reasonable price. Composer is included in the $99/user/mo AscendixRE
-                                                Enterprise plan, which gives you access to both advanced CRM
-                                                functionality and a report generation tool. No extra fees. </p>
+                                            <p>
+                                                Composer is a world-class Commercial Real Estate CRM
+                                                tool and a report generation tool that besides
+                                                advanced functionality and flexible interface design
+                                                fully integrates with AscendixRE CRM and has a
+                                                reasonable price. Composer is included in the
+                                                $99/user/mo AscendixRE Enterprise plan, which gives
+                                                you access to both advanced CRM functionality and a
+                                                report generation tool. No extra fees.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -2096,8 +1227,10 @@
                                             aria-controls="collapseTres">
                                             <div class="row">
                                                 <div class="col d-flex align-items-center justify-content-between">
-                                                    <h3 class="features__tabs-title">What Document Versions Are
-                                                        Compatible with Composer Online?</h3>
+                                                    <h3 class="features__tabs-title">
+                                                        What Document Versions Are Compatible with
+                                                        Composer Online?
+                                                    </h3>
                                                     <span>
                                                         <svg class="icon icon--arrow icon--faq-arrow">
                                                             <use xlink:href="#faq-arrow"></use>
@@ -2111,63 +1244,23 @@
                                     <div id="collapseTres" class="collapse" aria-labelledby="docs"
                                         data-parent="#faq-accordion">
                                         <div class="card-body">
-                                            <p>Composer is a world-class Commercial Real Estate CRM tool and a report
-                                                generation tool that besides advanced functionality and flexible
-                                                interface design fully integrates with AscendixRE CRM and has a
-                                                reasonable price. Composer is included in the $99/user/mo AscendixRE
-                                                Enterprise plan, which gives you access to both advanced CRM
-                                                functionality and a report generation tool. No extra fees. </p>
+                                            <p>
+                                                Composer is a world-class Commercial Real Estate CRM
+                                                tool and a report generation tool that besides
+                                                advanced functionality and flexible interface design
+                                                fully integrates with AscendixRE CRM and has a
+                                                reasonable price. Composer is included in the
+                                                $99/user/mo AscendixRE Enterprise plan, which gives
+                                                you access to both advanced CRM functionality and a
+                                                report generation tool. No extra fees.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- FORM -->
-        <section class="form map" id="form" style="background-image:url(img/map-bcg.png)">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="form__inner text-center">
-                            <div class="form__content">
-                                <h2 class="form__title title">Ready to Start?</h2>
-                                <p class="form__text text">It is easy to try. We offer a Composer trial with no
-                                    obligations.
-                                    Start generating PDFs, emails and landing pages in just a few clicks</p>
-                            </div>
-                            <form class="form__row" action="https://ascendixtech.com/thank-you/" method="get">
-                                <div class="form__box">
-                                    <label class="form__label">
-                                        <input type="text" class="form__name" placeholder="Full Name" required>
-                                        <span>
-                                            <svg class="icon icon--name">
-                                                <use xlink:href="#form-name"></use>
-                                            </svg>
-                                        </span>
-                                    </label>
-                                    <label class="form__label">
-                                        <input type="email" class="form__email" placeholder="Work Email" required>
-                                        <span>
-                                            <svg class="icon icon--form-email">
-                                                <use xlink:href="#form-email"></use>
-                                            </svg>
-                                        </span>
-                                    </label>
-                                </div>
-                                <button class="btn primary" type="submit">Request Demo</button>
-                            </form>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -2175,7 +1268,6 @@
     </main>
 
     <svg display="none" xmlns="http://www.w3.org/2000/svg">
-
         <!-- <symbol id="smile" viewBox="0 0 44 44">
             <path
                 d="M22 0.6875C10.2266 0.6875 0.6875 10.2266 0.6875 22C0.6875 33.7734 10.2266 43.3125 22 43.3125C33.7734 43.3125 43.3125 33.7734 43.3125 22C43.3125 10.2266 33.7734 0.6875 22 0.6875ZM10.3125 19.25C10.5703 15.6406 13.0625 13.0625 15.125 13.0625C17.1016 13.0625 19.5938 15.6406 19.9375 19.25C19.9375 19.9375 18.9922 20.2812 18.6484 19.5938L17.7891 18.1328C17.1016 17.0156 16.1562 16.3281 15.125 16.3281C14.0078 16.3281 13.0625 17.0156 12.375 18.1328L11.6016 19.5938C11.1719 20.2812 10.2266 19.9375 10.3125 19.25ZM31.7969 29.8203C29.3906 32.7422 25.7812 34.375 22 34.375C18.1328 34.375 14.5234 32.7422 12.1172 29.8203C10.9141 28.3594 13.0625 26.6406 14.1797 28.0156C16.1562 30.3359 18.9922 31.625 22 31.625C25.0078 31.625 27.7578 30.3359 29.7344 28.0156C30.8516 26.6406 33 28.3594 31.7969 29.8203ZM32.3984 19.5938L31.5391 18.1328C30.8516 17.0156 29.9062 16.3281 28.875 16.3281C27.7578 16.3281 26.8125 17.0156 26.125 18.1328L25.3516 19.5938C24.9219 20.2812 23.9766 19.9375 24.0625 19.25C24.3203 15.6406 26.8125 13.0625 28.875 13.0625C30.8516 13.0625 33.3438 15.6406 33.6875 19.25C33.6875 19.9375 32.7422 20.2812 32.3984 19.5938Z" />
@@ -2285,14 +1377,15 @@
             <path
                 d="M9.6875 17C9.90625 17.0625 10.0938 16.9375 10.1562 16.75L14.4375 2.0625C14.5 1.84375 14.375 1.625 14.1875 1.59375L12.2812 1.03125C12.0625 0.96875 11.875 1.09375 11.8125 1.28125L7.53125 15.9688C7.46875 16.1875 7.59375 16.375 7.78125 16.4375L9.6875 17ZM6.125 13.5L7.5 12.0312C7.65625 11.875 7.625 11.6562 7.46875 11.5L4.65625 9L7.46875 6.53125C7.625 6.375 7.65625 6.125 7.5 6L6.125 4.53125C6 4.375 5.75 4.375 5.59375 4.53125L1.09375 8.75C0.9375 8.875 0.9375 9.125 1.09375 9.28125L5.59375 13.5C5.75 13.6562 6 13.6562 6.125 13.5ZM16.375 13.5L20.875 9.28125C21.0312 9.15625 21.0312 8.875 20.875 8.75L16.375 4.53125C16.2188 4.375 15.9688 4.375 15.8438 4.53125L14.4688 5.96875C14.3438 6.125 14.3438 6.375 14.5 6.53125L17.3438 9L14.5 11.5C14.3438 11.6562 14.3125 11.875 14.4688 12.0312L15.8438 13.5C15.9688 13.6562 16.2188 13.6562 16.375 13.5Z" />
         </symbol>
-
     </svg>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"
+        integrity="sha512-j7/1CJweOskkQiS5RD9W8zhEG9D9vpgByNGxPIqkO5KrXrwyDAroM9aQ9w8J7oRqwxGyz429hPVk/zR6IOMtSA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js" crossorigin="anonymous">
     </script>
     <script src="js/main.js"></script>
-
 </body>
 
 </html>
