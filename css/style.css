@@ -149,6 +149,10 @@ h4 {
   background-repeat: no-repeat;
 }
 
+.reasons__link:hover {
+  color: #019FFD;
+}
+
 .btn-primary:focus {
   box-shadow: none;
 }
@@ -158,13 +162,13 @@ h4 {
 }
 
 .btn.primary:hover {
-  background-color: var(--btn-color-hover);
-  border-color: var(--btn-color-hover);
+  background-color: #2491DD;
+  border-color: #2491DD;
 }
 
 .btn.primary:focus {
-  border-color: var(--btn-color-hover);
-  background-color: var(--btn-color-hover);
+  border-color: #0073B8;
+  background-color: #0073B8;
   color: #fff;
   box-shadow: none;
 }
@@ -854,18 +858,28 @@ h4 {
 }
 
 .pricing .pricing__btn:hover {
-  background-color: var(--btn-color);
+  background-color: #2491DD;
+  color: var(--white);
+}
+
+.pricing .pricing__btn:focus {
+  background-color: #0073B8;
   color: var(--white);
 }
 
 .pricing .pricing__card--dark .pricing__btn {
-  background-color: var(--btn-color);
+  background-color: #00AFF0;
   color: var(--white);
 }
 
 .pricing .pricing__card--dark .pricing__btn:hover {
-  background-color: var(--white);
-  color: var(--btn-color);
+  background-color: #2491DD;
+  color: #fff;
+}
+
+.pricing .pricing__card--dark .pricing__btn:focus {
+  background-color: #0073B8;
+  color: #fff;
 }
 
 .pricing__item span:first-child {
