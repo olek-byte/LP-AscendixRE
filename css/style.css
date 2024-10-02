@@ -162,6 +162,23 @@ h4 {
   border-color: var(--btn-color-hover);
 }
 
+.btn.primary:focus {
+  border-color: var(--btn-color-hover);
+  background-color: var(--btn-color-hover);
+  color: #fff;
+  box-shadow: none;
+}
+
+.form__row .btn:hover {
+  background-color: #FF8474;
+  border-color: #FF8474;
+}
+
+.form__row .btn:focus {
+  background-color: #E46251;
+  border-color: #E46251;
+}
+
 .hero .hero__link,
 .demo .demo__btn,
 .form .form__btn,
@@ -219,6 +236,7 @@ h4 {
 .hero .hero__text {
   width: 65%;
   margin: 0 auto 32px;
+  font-weight: 600;
 }
 
 .hero__video-link {
