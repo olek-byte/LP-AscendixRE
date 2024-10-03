@@ -622,6 +622,10 @@ h4 {
   color: #2491DD;
 }
 
+.brokers__link:focus {
+  color: #0056b3;
+}
+
 .brokers__content-bottom {
   position: relative;
   margin-left: -100px;
@@ -921,6 +925,10 @@ h4 {
   text-decoration: underline;
   font-weight: 400;
   line-height: 150%;
+}
+
+.reasons__link:focus {
+  color: #019FFD;
 }
 
 .reasons__card--small {
