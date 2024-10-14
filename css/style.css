@@ -162,11 +162,17 @@ h4 {
   font-size: 20px;
 }
 
+.form {
+  position: relative;
+}
+
 .map {
   width: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  position: absolute;
+  max-height: 488px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .reasons__link:hover {
