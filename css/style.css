@@ -111,10 +111,6 @@ body {
   color: var(--text-grey);
 }
 
-.sections-start {
-  overflow-x: hidden;
-}
-
 section {
   padding: 60px 0;
 }
@@ -125,6 +121,12 @@ main ul li::before {
 
 main ul li {
   padding-left: 0;
+}
+
+.features__sticky {
+  top: 100px;
+  position: sticky;
+  z-index: 1020;
 }
 
 /* For SEO ====================== */
