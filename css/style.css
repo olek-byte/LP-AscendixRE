@@ -381,7 +381,15 @@ h4 {
   opacity: 0;
 }
 
+.image-hover .pressed {
+  opacity: 0;
+}
+
 .image-hover:hover .hover {
+  opacity: 1;
+}
+
+.image-hover:active .pressed {
   opacity: 1;
 }
 
