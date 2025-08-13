@@ -1,11 +1,16 @@
 // SMOOTH SCROLL
 const smoothScroll = () => {
-  const anchors = document.querySelectorAll('a[href*="#"]');
+  // Only target in-page anchor links that actually point to an element id
+  const anchors = document.querySelectorAll('a[href^="#"]:not([href="#"])');
   for (let anchor of anchors) {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
-      const blockID = anchor.getAttribute('href').substr(1);
-      document.getElementById(blockID).scrollIntoView({
+      const blockID = anchor.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(blockID);
+      if (!targetElement) {
+        return;
+      }
+      targetElement.scrollIntoView({
         behavior: 'smooth',
         block: 'center',
       });
